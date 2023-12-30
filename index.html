@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h2 class="titulo">Piedra | Papel | Tijeras</h2>
+
+
+    <div class="contenedorPrincipal">
+        <h3>Elije un ataque</h3>
+        <div class="contenedorImgs">
+            <img src="Img/papel.png" class="ImgPapel" data-option="Papel" alt="">
+            <img src="Img/piedra.png" class="ImgPiedra" data-option="Piedra" alt="">
+            <img src="Img/tijera.png" class="ImgTijera"data-option="Tijera"  alt="">
+        </div>
+    </div>
+
+    <hr>
+
+
+    <div class="contenedorSecundario">
+        <div class="contImgsResultantes">
+        </div>
+    </div>
+
+    <h1 class="ganador"></h1>
+
+    <!-- Agrega este botón al final del cuerpo de tu HTML -->
+    <div class="div">
+        <button id="reiniciarBtn" class="btn-Reiniciar" onclick="reiniciarJuego()">Reiniciar Juego</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

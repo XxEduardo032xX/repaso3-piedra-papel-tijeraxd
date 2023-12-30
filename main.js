@@ -8,6 +8,7 @@ const fragmento = document.createDocumentFragment();
 const btnReiniciar = document.querySelector(".btn-Reiniciar")
 const opciones = ["Piedra", "Papel", "Tijera"];
 
+//comentario:v
 btnReiniciar.style.display = "none";
 contenedorSecundario.style.display = "none";
 const imgsJuego = [
